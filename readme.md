@@ -1,6 +1,6 @@
 📚 Academic Regulations Q&A — RAG-based Document Assistant
 A Retrieval-Augmented Generation (RAG) system that lets you ask natural-language questions about a college's B.Tech Academic Regulations document and get accurate, cited answers — instead of manually searching through a 11-page PDF.
-Live demo: (add your Streamlit Cloud link here once deployed)
+Live demo: https://rag-handbook-app-kfhvrgkgvdjysejoo5bztc.streamlit.app/
 ---
 🧠 Problem
 Searching a dense academic regulations PDF for a specific rule (attendance %, credit requirements, grading policy) is slow and error-prone with plain Ctrl+F search — different sections use different wording for related rules, so keyword search often misses what you're looking for.
