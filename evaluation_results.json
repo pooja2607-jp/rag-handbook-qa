@@ -1,0 +1,145 @@
+{
+  "accuracy": 80.0,
+  "results": [
+    {
+      "question": "What is the minimum attendance required to sit for exams?",
+      "answer": "According to the excerpts, the minimum attendance required to sit for exams is 75% of attendance in aggregate of all the Subjects/Courses (excluding Mandatory or Non-Credit Courses) for that Semester. \n\nThis can be found on Page 3, Section 7.1.",
+      "expected_keyword": "75%",
+      "expected_source": "Page 3 / Sec 7.1",
+      "correct": true
+    },
+    {
+      "question": "Below what attendance percentage can shortage NOT be condoned?",
+      "answer": "According to the excerpts, shortage of attendance below 65% in aggregate shall in NO case be condoned. \n\nI used Page 3, specifically excerpt 7.4.",
+      "expected_keyword": "65%",
+      "expected_source": "Sec 7.4",
+      "correct": true
+    },
+    {
+      "question": "How many total credits are required to complete the B.Tech program?",
+      "answer": "According to the excerpts, the total credits required to complete the B.Tech program is 192 Credits. This information can be found on Page 2 and Page 5.",
+      "expected_keyword": "192",
+      "expected_source": "Sec 4.3",
+      "correct": true
+    },
+    {
+      "question": "What CGPA is required for First Class with Distinction?",
+      "answer": "According to excerpt [Page 9]: 12.2, the CGPA required for First Class with Distinction is \u2265 7.75.",
+      "expected_keyword": "7.75",
+      "expected_source": "Sec 12.2",
+      "correct": true
+    },
+    {
+      "question": "What is the minimum SGPA/CGPA a student needs to pass?",
+      "answer": "According to the excerpts, a student needs to have a SGPA \u2265 5.00 (at the end of a particular semester) and a CGPA \u2265 5.00 to be declared successful or 'passed' in the entire UGP. \n\nPage 8: only when he gets a SGPA \u2265 5.00 (at the end of that particular Semester); and a student shall be declared successful or \u2018passed\u2019 in the entire UGP, only when gets a CGPA \u2265 5.00.",
+      "expected_keyword": "5.0",
+      "expected_source": "Sec 8.6",
+      "correct": true
+    },
+    {
+      "question": "What happens if a student is caught using a mobile phone in the exam hall?",
+      "answer": "According to the excerpts, if a student is caught using a mobile phone in the exam hall, they will be expelled from the examination hall and their performance in that subject will be cancelled. This is mentioned on Page 10, under point b.",
+      "expected_keyword": "Expulsion",
+      "expected_source": "Sec 17",
+      "correct": false
+    },
+    {
+      "question": "What is the maximum number of years allowed to complete the B.Tech degree?",
+      "answer": "According to the excerpts, the maximum number of years allowed to complete the B.Tech degree is 10 years (Page 2).",
+      "expected_keyword": "8",
+      "expected_source": "Sec 4.1",
+      "correct": false
+    },
+    {
+      "question": "How many credits are needed to get promoted from 1st year to 2nd year?",
+      "answer": "To get promoted from 1st year to 2nd year, a student needs to secure 50% of the credits of 1st year, which is 24 credits out of 48 credits. \n\nI used Page 4 for this answer.",
+      "expected_keyword": "50%",
+      "expected_source": "Sec 8.3",
+      "correct": true
+    },
+    {
+      "question": "What is the passing minimum marks needed in the End Semester Exam for a theory subject?",
+      "answer": "To find the passing minimum marks needed in the End Semester Exam for a theory subject, we need to look at the distribution of marks mentioned in the excerpts.\n\nAccording to [Page 5], the evaluations shall be based on 30% CIE (Continuous Internal Evaluation) and 70% S EE (Semester End Examination). \n\nSince the midterm internal marks for theory subjects are scaled to a maximum of 20 marks, and the total internal evaluation marks is 30, the maximum marks for the End Semester Exam would be 70% of the total marks, which is 70% of 100 marks.\n\n70% of 100 marks is 70. \n\nHowever, to find the minimum passing marks, we need to know the minimum passing percentage. Unfortunately, this information is not provided in the excerpts.\n\nTherefore, I don't have enough information to answer that.",
+      "expected_keyword": "35%",
+      "expected_source": "Sec 8.1",
+      "correct": false
+    },
+    {
+      "question": "What happens if a student impersonates another candidate in an exam?",
+      "answer": "According to the excerpts, if a student impersonates another candidate in an exam, they will be expelled from the examination hall (Page 10). Additionally, the impersonated candidate's performance will be cancelled in all the subjects they have already appeared in, including practicals and project work, and they will not be allowed to appear for the remaining subjects of that semester/year (Page 10). The impersonated candidate will also be debarred for two consecutive semesters from class work and all end semester examinations (Page 10).",
+      "expected_keyword": "Expelled",
+      "expected_source": "Sec 17",
+      "correct": true
+    },
+    {
+      "question": "What is the minimum percentage of marks needed for Industry-Oriented Mini-Project/Seminar?",
+      "answer": "According to the excerpts, the minimum percentage of marks needed for Industry-Oriented Mini-Project/Seminar is 40%. This is mentioned on Page 4, under the condition (iii) for treating a student as failed. \n\nAdditionally, Page 6 provides more information about the evaluation of the Industry-Oriented Mini-Project, but it does not mention the minimum percentage of marks needed.",
+      "expected_keyword": "40%",
+      "expected_source": "Sec 8.2",
+      "correct": true
+    },
+    {
+      "question": "How many credits does a student typically register for per semester from 3rd year onwards?",
+      "answer": "According to the excerpts, from 3rd year onwards, a student may be permitted to register for his subjects/course of choice with a typical total of 24 credits per semester. \n\nThis information can be found on Page 3 of the excerpts.",
+      "expected_keyword": "24",
+      "expected_source": "Sec 5.4",
+      "correct": true
+    },
+    {
+      "question": "What is the duration of the End Semester Examination for theory subjects?",
+      "answer": "The duration of the End Semester Examination for theory subjects is 3 hours. \n\nI used Page 6 for this information.",
+      "expected_keyword": "3 hours",
+      "expected_source": "Sec 9.3.a",
+      "correct": true
+    },
+    {
+      "question": "Who conducts the Comprehensive Viva-Voce examination?",
+      "answer": "The Comprehensive Viva-Voce examination is conducted by a committee consisting of the Head of the Department and two senior faculty members of the department. \n\nI used Page 7 for this answer.",
+      "expected_keyword": "Head of the Department",
+      "expected_source": "Sec 9.8",
+      "correct": true
+    },
+    {
+      "question": "What percentage range corresponds to 80% and above grade band?",
+      "answer": "The percentage range that corresponds to the 80% and above grade band is 80% and above, or ( \u2265  80% ,   \u2264 100%). \n\nThis information can be found on Page 7 of the academic regulations document.",
+      "expected_keyword": "80%",
+      "expected_source": "Sec 10.2",
+      "correct": true
+    },
+    {
+      "question": "Can a student repeat a subject just to improve their grade?",
+      "answer": "No, a student shall not be permitted to repeat any Subject/Course only for the sake of 'Grade Improvement' or 'SGPA/CGPA Improvement'. \n\nI used Page 8, Item 10.5.",
+      "expected_keyword": "not be permitted",
+      "expected_source": "Sec 10.5",
+      "correct": true
+    },
+    {
+      "question": "What is required for NCC/NSS/NSO courses to get a Satisfactory Participation Certificate?",
+      "answer": "To get a Satisfactory Participation Certificate for NCC/NSS/NSO courses, a student must secure \u2265 65% attendance in such a course. This is mentioned on page 9.",
+      "expected_keyword": "65%",
+      "expected_source": "Sec 9.11",
+      "correct": true
+    },
+    {
+      "question": "How many marks are allotted for internal evaluation vs external for practical subjects?",
+      "answer": "For practical subjects, 30 marks are allotted for internal evaluation and 70 marks for the end semester examination. \n\nI used Page 6, specifically section 9.4 Practical Subjects.",
+      "expected_keyword": "30",
+      "expected_source": "Sec 9.4",
+      "correct": true
+    },
+    {
+      "question": "What happens if a student is absent for a mid-term exam?",
+      "answer": "I don't have enough information to answer that.",
+      "expected_keyword": "substitution test",
+      "expected_source": "Sec 9.3.a",
+      "correct": false
+    },
+    {
+      "question": "What CGPA range is needed for Second Class?",
+      "answer": "To determine the CGPA range needed for Second Class, I used excerpts from Page 9. According to 12.2, the CGPA range for Second Class is 5.75 \u2264 CGPA < 6.75.",
+      "expected_keyword": "5.75",
+      "expected_source": "Sec 12.2",
+      "correct": true
+    }
+  ]
+}

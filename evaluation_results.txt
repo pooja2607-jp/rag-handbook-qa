@@ -1,0 +1,115 @@
+EVALUATION REPORT: 16/20 correct (80.0%)
+============================================================
+
+[CORRECT] Q1: What is the minimum attendance required to sit for exams?
+Expected source: Page 3 / Sec 7.1
+Full Answer: According to the excerpts, the minimum attendance required to sit for exams is 75% of attendance in aggregate of all the Subjects/Courses (excluding Mandatory or Non-Credit Courses) for that Semester. 
+
+This can be found on Page 3, Section 7.1.
+
+[CORRECT] Q2: Below what attendance percentage can shortage NOT be condoned?
+Expected source: Sec 7.4
+Full Answer: According to the excerpts, shortage of attendance below 65% in aggregate shall in NO case be condoned. 
+
+I used Page 3, specifically excerpt 7.4.
+
+[CORRECT] Q3: How many total credits are required to complete the B.Tech program?
+Expected source: Sec 4.3
+Full Answer: According to the excerpts, the total credits required to complete the B.Tech program is 192 Credits. This information can be found on Page 2 and Page 5.
+
+[CORRECT] Q4: What CGPA is required for First Class with Distinction?
+Expected source: Sec 12.2
+Full Answer: According to excerpt [Page 9]: 12.2, the CGPA required for First Class with Distinction is ≥ 7.75.
+
+[CORRECT] Q5: What is the minimum SGPA/CGPA a student needs to pass?
+Expected source: Sec 8.6
+Full Answer: According to the excerpts, a student needs to have a SGPA ≥ 5.00 (at the end of a particular semester) and a CGPA ≥ 5.00 to be declared successful or 'passed' in the entire UGP. 
+
+Page 8: only when he gets a SGPA ≥ 5.00 (at the end of that particular Semester); and a student shall be declared successful or ‘passed’ in the entire UGP, only when gets a CGPA ≥ 5.00.
+
+[INCORRECT] Q6: What happens if a student is caught using a mobile phone in the exam hall?
+Expected source: Sec 17
+Full Answer: According to the excerpts, if a student is caught using a mobile phone in the exam hall, they will be expelled from the examination hall and their performance in that subject will be cancelled. This is mentioned on Page 10, under point b.
+
+[INCORRECT] Q7: What is the maximum number of years allowed to complete the B.Tech degree?
+Expected source: Sec 4.1
+Full Answer: According to the excerpts, the maximum number of years allowed to complete the B.Tech degree is 10 years (Page 2).
+
+[CORRECT] Q8: How many credits are needed to get promoted from 1st year to 2nd year?
+Expected source: Sec 8.3
+Full Answer: To get promoted from 1st year to 2nd year, a student needs to secure 50% of the credits of 1st year, which is 24 credits out of 48 credits. 
+
+I used Page 4 for this answer.
+
+[INCORRECT] Q9: What is the passing minimum marks needed in the End Semester Exam for a theory subject?
+Expected source: Sec 8.1
+Full Answer: To find the passing minimum marks needed in the End Semester Exam for a theory subject, we need to look at the distribution of marks mentioned in the excerpts.
+
+According to [Page 5], the evaluations shall be based on 30% CIE (Continuous Internal Evaluation) and 70% S EE (Semester End Examination). 
+
+Since the midterm internal marks for theory subjects are scaled to a maximum of 20 marks, and the total internal evaluation marks is 30, the maximum marks for the End Semester Exam would be 70% of the total marks, which is 70% of 100 marks.
+
+70% of 100 marks is 70. 
+
+However, to find the minimum passing marks, we need to know the minimum passing percentage. Unfortunately, this information is not provided in the excerpts.
+
+Therefore, I don't have enough information to answer that.
+
+[CORRECT] Q10: What happens if a student impersonates another candidate in an exam?
+Expected source: Sec 17
+Full Answer: According to the excerpts, if a student impersonates another candidate in an exam, they will be expelled from the examination hall (Page 10). Additionally, the impersonated candidate's performance will be cancelled in all the subjects they have already appeared in, including practicals and project work, and they will not be allowed to appear for the remaining subjects of that semester/year (Page 10). The impersonated candidate will also be debarred for two consecutive semesters from class work and all end semester examinations (Page 10).
+
+[CORRECT] Q11: What is the minimum percentage of marks needed for Industry-Oriented Mini-Project/Seminar?
+Expected source: Sec 8.2
+Full Answer: According to the excerpts, the minimum percentage of marks needed for Industry-Oriented Mini-Project/Seminar is 40%. This is mentioned on Page 4, under the condition (iii) for treating a student as failed. 
+
+Additionally, Page 6 provides more information about the evaluation of the Industry-Oriented Mini-Project, but it does not mention the minimum percentage of marks needed.
+
+[CORRECT] Q12: How many credits does a student typically register for per semester from 3rd year onwards?
+Expected source: Sec 5.4
+Full Answer: According to the excerpts, from 3rd year onwards, a student may be permitted to register for his subjects/course of choice with a typical total of 24 credits per semester. 
+
+This information can be found on Page 3 of the excerpts.
+
+[CORRECT] Q13: What is the duration of the End Semester Examination for theory subjects?
+Expected source: Sec 9.3.a
+Full Answer: The duration of the End Semester Examination for theory subjects is 3 hours. 
+
+I used Page 6 for this information.
+
+[CORRECT] Q14: Who conducts the Comprehensive Viva-Voce examination?
+Expected source: Sec 9.8
+Full Answer: The Comprehensive Viva-Voce examination is conducted by a committee consisting of the Head of the Department and two senior faculty members of the department. 
+
+I used Page 7 for this answer.
+
+[CORRECT] Q15: What percentage range corresponds to 80% and above grade band?
+Expected source: Sec 10.2
+Full Answer: The percentage range that corresponds to the 80% and above grade band is 80% and above, or ( ≥  80% ,   ≤ 100%). 
+
+This information can be found on Page 7 of the academic regulations document.
+
+[CORRECT] Q16: Can a student repeat a subject just to improve their grade?
+Expected source: Sec 10.5
+Full Answer: No, a student shall not be permitted to repeat any Subject/Course only for the sake of 'Grade Improvement' or 'SGPA/CGPA Improvement'. 
+
+I used Page 8, Item 10.5.
+
+[CORRECT] Q17: What is required for NCC/NSS/NSO courses to get a Satisfactory Participation Certificate?
+Expected source: Sec 9.11
+Full Answer: To get a Satisfactory Participation Certificate for NCC/NSS/NSO courses, a student must secure ≥ 65% attendance in such a course. This is mentioned on page 9.
+
+[CORRECT] Q18: How many marks are allotted for internal evaluation vs external for practical subjects?
+Expected source: Sec 9.4
+Full Answer: For practical subjects, 30 marks are allotted for internal evaluation and 70 marks for the end semester examination. 
+
+I used Page 6, specifically section 9.4 Practical Subjects.
+
+[INCORRECT] Q19: What happens if a student is absent for a mid-term exam?
+Expected source: Sec 9.3.a
+Full Answer: I don't have enough information to answer that.
+
+[CORRECT] Q20: What CGPA range is needed for Second Class?
+Expected source: Sec 12.2
+Full Answer: To determine the CGPA range needed for Second Class, I used excerpts from Page 9. According to 12.2, the CGPA range for Second Class is 5.75 ≤ CGPA < 6.75.
+
