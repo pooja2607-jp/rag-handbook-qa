@@ -3,13 +3,24 @@ from dotenv import load_dotenv
 from groq import Groq
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
+from embed import build_vector_store
 
-# Load the API key from .env
+# Load the API key from .env (local) or Streamlit secrets (cloud)
 load_dotenv()
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+api_key = os.environ.get("GROQ_API_KEY")
+if not api_key:
+    import streamlit as st
+    api_key = st.secrets.get("GROQ_API_KEY")
+
+client = Groq(api_key=api_key)
 
 
 def load_vector_store():
+    # If the vector database doesn't exist yet (e.g. fresh deployment), build it
+    if not os.path.exists("chroma_db"):
+        print("No existing vector store found — building one now...")
+        build_vector_store()
+
     embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vectorstore = Chroma(
         persist_directory="chroma_db",
@@ -25,7 +36,6 @@ def retrieve_chunks(question, k=3):
 
 
 def generate_answer(question, chunks):
-    # Build context text from the retrieved chunks, with page numbers
     context_parts = []
     for doc in chunks:
         page = doc.metadata.get("page_label", "?")
@@ -60,11 +70,3 @@ def ask(question):
 
 if __name__ == "__main__":
     ask("What is the minimum attendance required to sit for exams?")
-def ask(question):
-    print("Retrieving chunks...")
-    chunks = retrieve_chunks(question)
-    print("Got chunks, calling LLM...")
-    answer = generate_answer(question, chunks)
-    print("Got answer!")
-    print(f"\nQuestion: {question}")
-    print(f"\nAnswer:\n{answer}")
